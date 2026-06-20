@@ -104,7 +104,7 @@ if page == "🏠 Home":
     with col1:
         st.image(
             # "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
-            "ak1.png",
+            "ak11.png",
             width=200
         )
 
