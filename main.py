@@ -346,22 +346,25 @@ elif page == "🏆 Certifications":
         }
     }
 
+    # --- Certificates Section ---
+
     for cert_name, cert_data in certificates.items():
 
-    with st.expander(f"📜 {cert_name}"):
+        with st.expander(f"📜 {cert_name}"):
 
-        image_path = cert_data["image"]
+            image_path = cert_data["image"]
 
-        # Safety check: prevent Streamlit from crashing if file is missing
-        if os.path.exists(image_path):
-            st.image(image_path, use_container_width=True)
-        else:
-            st.error(f"❌ Image not found: {image_path}")
-            st.info("Make sure the file name has no spaces, commas, or special characters.")
+            # Safe image loading
+            if os.path.exists(image_path):
+                st.image(image_path, use_container_width=True)
+            else:
+                st.error(f"❌ Image not found: {image_path}")
+                st.info("Rename the file to remove spaces, commas, or special characters.")
 
-        st.markdown(
-            f"🔗 **Verification URL:** [Click to verify]({cert_data['verification_url']})"
-        )
+            st.markdown(
+                f"🔗 **Verification URL:** [Click to verify]({cert_data['verification_url']})"
+            )
+
 
 # ==========================================================
 # CONTACT
