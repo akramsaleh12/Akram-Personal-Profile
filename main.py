@@ -330,6 +330,18 @@ elif page == "🏆 Certifications":
         "Python Data Structures": {
             "image": "certificates/Python_Data_Structures.jpeg",
             "verification_url": "https://www.coursera.org/account/accomplishments/verify/WNT66NZQPLX3"
+        },
+        "Intro to Deep Learning": {
+            "image": "certificates/intro-to-deep-learning.PNG",
+            "verification_url": "https://www.kaggle.com/learn/certification/akelsayed/intro-to-deep-learning"
+        },
+        "Intermediate Machine Learning": {
+            "image": "certificates/intermediate-machine-learning.PNG",
+            "verification_url": "https://www.kaggle.com/learn/certification/akelsayed/intermediate-machine-learning"
+        },
+        "Intro to Machine Learning": {
+            "image": "certificates/intro-to-machine-learning.PNG",
+            "verification_url": "https://www.kaggle.com/learn/certification/akelsayed/intro-to-machine-learning"
         }
     }
 
@@ -360,6 +372,7 @@ elif page == "📧 Contact":
     st.write("🔗 Kaggle: https://www.kaggle.com/akelsayed")
     st.write("🔗 LinkedIn: https://www.linkedin.com/in/akram-elsayed/")
     st.write("💻 GitHub: https://github.com/akramsaleh12")
+    st.write("🔗 YouTube: https://www.youtube.com/@learncodingwithak8520")
 
     st.divider()
 
