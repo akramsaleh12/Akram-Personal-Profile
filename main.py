@@ -332,15 +332,15 @@ elif page == "🏆 Certifications":
             "verification_url": "https://www.coursera.org/account/accomplishments/verify/WNT66NZQPLX3"
         },
         "Intro to Deep Learning": {
-            "image": "certificates/intro-to-deep-learning.PNG",
+            "image": "certificates/intro-to-deep-learning.png",
             "verification_url": "https://www.kaggle.com/learn/certification/akelsayed/intro-to-deep-learning"
         },
         "Intermediate Machine Learning": {
-            "image": "certificates/intermediate-machine-learning.PNG",
+            "image": "certificates/intermediate-machine-learning.png",
             "verification_url": "https://www.kaggle.com/learn/certification/akelsayed/intermediate-machine-learning"
         },
         "Intro to Machine Learning": {
-            "image": "certificates/intro-to-machine-learning.PNG",
+            "image": "certificates/intro-to-machine-learning.png",
             "verification_url": "https://www.kaggle.com/learn/certification/akelsayed/intro-to-machine-learning"
         }
     }
