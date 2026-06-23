@@ -337,7 +337,7 @@ elif page == "🏆 Certifications":
             "verification_url": "https://www.kaggle.com/learn/certification/akelsayed/intro-to-deep-learning"
         },
         "Intermediate Machine Learning": {
-            "image": "certificates/intermediate_machine_learning,png",
+            "image": "certificates/intermediate_machine_learning.png",
             "verification_url": "https://www.kaggle.com/learn/certification/akelsayed/intermediate-machine-learning"
         },
         "Intro to Machine Learning": {
